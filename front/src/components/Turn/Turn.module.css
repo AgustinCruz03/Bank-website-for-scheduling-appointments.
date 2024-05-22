@@ -1,0 +1,19 @@
+.containerCell{
+    height: 40px;
+    border: 1px solid #2D2F37;
+}
+.td{
+    padding: 30px;
+}
+
+.active {
+    background-color: green;
+    padding: 5px 7px;
+    border-radius: 35px;
+  }
+  
+  .cancelled {
+    background-color: red;
+    padding: 5px 7px;
+    border-radius: 35px;
+  }

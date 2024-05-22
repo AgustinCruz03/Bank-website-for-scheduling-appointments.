@@ -1,0 +1,46 @@
+.form{
+    width: 40vw;
+    margin:3vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #1A1D25;
+    padding: 20px;
+    border-radius: 30px;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+}
+.divInput{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 70%;
+}
+.divInput label{
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+}
+.divInput input {
+    background-color: #1A1D26;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.divInput span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.submitBtn{
+    width: 30%;
+    padding: 5px;
+}
+.form span a{
+    text-decoration: none;
+    color: #FDEE23;
+}

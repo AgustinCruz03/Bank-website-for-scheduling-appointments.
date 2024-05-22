@@ -1,0 +1,21 @@
+.parTxtImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-inline: auto;
+    margin-block: 10px;
+    width: 60vw;
+    background-color: #1A1D25;
+}
+
+.img{
+    width: 200px;
+    height: 140px;
+    object-fit:cover;
+    aspect-ratio: 16/9;
+}
+
+.txt{
+    text-align: center;
+    margin: 30px;
+}
